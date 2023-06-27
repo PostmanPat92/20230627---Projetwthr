@@ -1,0 +1,43 @@
+[
+  {
+      "id": 1,
+      "nom": "Beignon"
+      
+  },
+  {
+      "id": 2,
+      "nom": "Créteil"
+  },
+  {
+    "id": 3,
+    "nom": "Marseille"
+},
+{
+  "id": 4,
+  "nom": "Stockholm"
+},
+{
+  "id": 5,
+  "nom": "Meudon"
+},
+{
+  "id": 6,
+  "nom": "Ploermel"
+},
+{
+  "id": 7,
+  "nom": "Ushuaia"
+},
+{
+  "id": 8,
+  "nom": "Cassis"
+},
+{
+  "id": 9,
+  "nom": "Tarbes"
+},
+{
+  "id": 10,
+  "nom": "Bergerac"
+}
+]

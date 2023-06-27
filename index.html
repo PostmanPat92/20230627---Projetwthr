@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<!-- Titre -->
+		<title>MéteoReseauTransport</title>
+		<!-- Sources icones -->
+		<script src="https://kit.fontawesome.com/ced206b8db.js" crossorigin="anonymous"></script>
+		<!-- Sources CSS -->
+		<link rel="stylesheet" href="style.css">
+		<!-- Rafraîchissement toutes les heures -->
+		<script>
+		setTimeout(() => {
+		window.location.reload()
+		}, '3600000')
+		</script>
+	</head>
+	
+	<header>
+		<!-- Titre météo -->
+		<h1>Météo</h1>
+		<!-- Affichage de la Ville -->
+		<h2><section class="fiches"></section></h2>
+	</header>
+	
+	<body>  
+		<!-- icone du temps -->
+		<img id="weatherIcon" src="" alt="">
+		<div id="weather"></div>
+		<!-- affichage de la température -->
+		<div id="temps"></div>
+		<!-- affichage de l'humidité + icone humidité-->
+		<div id="humidite">
+		<i class="fa-solid fa-droplet"></i><!--icone humidité-->
+		<div id="humidity"></div></div>
+	   	<!-- affichage du vent + icone vent-->
+		<div id="vent">
+		<i class="fa-solid fa-wind" ></i><!--icone vent-->
+		<div id="wind"></div></div>
+	<!-- affichage température ressentie + icone thermometre-->	
+		<div id="tempressenti">
+		<i class="fa-solid fa-temperature-quarter"></i><!--icone thermomètre-->
+		<div id="ressenti"></div></div>
+	</body>
+<!-- Sources JS - en rajoutant "type module" pour que "Await" fonctionne dans JavaScript -->
+	<script type="module" src="meteo.js"></script>
+
+</html>
+		
